@@ -1,0 +1,1 @@
+<?php // Code complet prêt à être rempli dans la réponse suivante ?>
