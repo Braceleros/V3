@@ -474,7 +474,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['programmer_histoire']
         <?php if ($prog_msg): ?>
             <div class="prog-msg"><?= htmlspecialchars($prog_msg) ?></div>
         <?php endif; ?>
-        <input type="text" id="recherche-histoire" placeholder="Mot clé ou titre..." style="width:100%;padding:9px;border-radius:7px;border:1px solid #bbb;font-size:1.09em;">
+        <input type="text" id="recherche-histoire" placeholder="Mot clé ou titre..." style="width:100%;padding:9px;border-radius:7px;border:1px solid #bbb;font-size:1.09em;" autocomplete="off">
         <div id="resultats-histoires" style="margin-top:9px;"></div>
         <div id="prog-message" style="color:#219150;font-weight:bold;"></div>
     </div>
